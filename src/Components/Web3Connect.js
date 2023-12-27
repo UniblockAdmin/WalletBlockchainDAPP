@@ -13,7 +13,7 @@ const Web3Connect = () => {
       
       useEffect(() => {
         const provider = new Web3.providers.HttpProvider(
-          "http://localhost:8545/"
+          "http://194.87.147.75:8545/"
         );
         
         async function initializeWeb3() {
