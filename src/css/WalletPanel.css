@@ -1,0 +1,106 @@
+/* WalletPanel.css */
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 800px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .tabButton {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  
+  .tabButton.active {
+    background-color: #0366d6;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid #0366d6;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+  }
+  
+  .balance {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .tokenList {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .tokenItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tokenImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .transferForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .transferForm h3 {
+    margin-bottom: 10px;
+  }
+  
+  .transferForm label {
+    margin: 10px 0;
+  }
+  
+  .transferForm input {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  
+  .transferForm button {
+    padding: 10px 20px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
